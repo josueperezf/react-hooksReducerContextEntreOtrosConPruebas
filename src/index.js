@@ -1,3 +1,4 @@
+/*
 import React from 'react';
 import ReactDOM from 'react-dom';
 // import HookApp from './HookApp';
@@ -18,3 +19,5 @@ ReactDOM.render(
     <Padre />,
   document.getElementById('root')
 );
+*/
+import './componentes/08-useReducer/intro-reducer'
