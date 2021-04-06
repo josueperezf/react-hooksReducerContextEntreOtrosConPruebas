@@ -1,4 +1,3 @@
-/*
 import React from 'react';
 import ReactDOM from 'react-dom';
 // import HookApp from './HookApp';
@@ -13,11 +12,10 @@ import ReactDOM from 'react-dom';
 // import { Memorize } from './componentes/06-memos/Memorize';
 // import { UsoDeMemoHook } from './componentes/06-memos/UsoDeMemoHook';
 // import { CallbackHook } from './componentes/06-memos/CallbackHook';
-import { Padre } from './componentes/07-tarea-memo/Padre';
+// import { Padre } from './componentes/07-tarea-memo/Padre';
+import { TareasApp } from './componentes/08-useReducer/TareasApp';
 
 ReactDOM.render(
-    <Padre />,
+    <TareasApp />,
   document.getElementById('root')
 );
-*/
-import './componentes/08-useReducer/intro-reducer'
