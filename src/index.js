@@ -13,9 +13,10 @@ import ReactDOM from 'react-dom';
 // import { UsoDeMemoHook } from './componentes/06-memos/UsoDeMemoHook';
 // import { CallbackHook } from './componentes/06-memos/CallbackHook';
 // import { Padre } from './componentes/07-tarea-memo/Padre';
-import { TareasApp } from './componentes/08-useReducer/TareasApp';
+// import { TareasApp } from './componentes/08-useReducer/TareasApp';
+import { MainApp } from './componentes/09-useContext/MainApp';
 
 ReactDOM.render(
-    <TareasApp />,
+    <MainApp />,
   document.getElementById('root')
 );
