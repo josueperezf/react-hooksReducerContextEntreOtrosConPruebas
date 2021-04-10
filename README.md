@@ -8,3 +8,11 @@ la documentacion oficial se encuentra en <https://reactrouter.com/web/guides/qui
 
     npm install react-router-dom
 
+
+## Sección 12: Pruebas unitarias y de integracion
+
+    npm i --save-dev enzyme 
+    npm install --save-dev @wojtekmaj/enzyme-adapter-react-17
+    npm install --save-dev enzyme-to-json
+    npm install --save-dev @testing-library/react-hooks
+

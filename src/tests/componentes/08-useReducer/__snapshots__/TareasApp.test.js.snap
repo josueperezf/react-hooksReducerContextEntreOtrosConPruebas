@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas en <TareasApp/> Debe Mostrarse correctamente 1`] = `
+<div>
+  <h1>
+    Todo App (
+    0
+    ) 
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-7"
+    >
+      <TareaLista
+        handleDelete={[Function]}
+        handleToggle={[Function]}
+        tareas={Array []}
+      />
+    </div>
+    <div
+      className="col-5"
+    >
+      <AgregarTarea
+        handleAgregarTarea={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

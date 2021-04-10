@@ -27,6 +27,9 @@ export const useFetch = (url) => {
                         data
                     });
                 }
+            })
+            .catch(()=>{
+                setstate({data: null, loading:false, error: 'No se pudo cargar la info'})
             });
     }, [url]);
     

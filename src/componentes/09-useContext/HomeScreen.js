@@ -6,7 +6,7 @@ export const HomeScreen = () => {
      * UserContext es un archivo que cree, al cual le defini su favores en el mainApp, y los mismo estan disponibles en cualquiera de sus componentes
      */
     const {user} = useContext(UserContext);
-    console.log(user);
+    // console.log(user);
     return (
         <div>
             <h1>HomeScreen</h1>

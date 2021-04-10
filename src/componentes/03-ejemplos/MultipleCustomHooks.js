@@ -5,7 +5,7 @@ import '../02-useEffect/effect.css';
 export const MultipleCustomHooks = () => {
 
     const {contador, incrementar} = useCounter(1);
-    console.log(contador);
+    // console.log(contador);
     const url = `https://www.breakingbadapi.com/api/quotes/${contador}`;
     const { loading, data } = useFetch(url);
     /**
@@ -14,7 +14,7 @@ export const MultipleCustomHooks = () => {
      * con dos !! si el resultado es true, mejor dicho, si tiene data, entonces '&&' obtenga de data[0]
      */
     // si existe la data extrae la posicion cero
-    console.log(data);
+    // console.log(data);
     
     const {author, quote} = !!data && data[0];
     return (
@@ -27,7 +27,7 @@ export const MultipleCustomHooks = () => {
                 :
                     (
                         <blockquote className="blockquote text-end">
-                            <p >{quote}</p>
+                            <p className='mb-0' >{quote}</p>
                             <footer className="blockquote-footer">{author}</footer>
                         </blockquote>
                     )
